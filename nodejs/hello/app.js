@@ -1,10 +1,10 @@
-var express = require('express');
+var express = require("express");
 var app = express();
 
-app.get("/", function (req, res){
-    res.send("Hello world - EC2 Deploy");
+app.get("/", function (req, res) {
+    res.send("Hello World - EC2 Deploy");
 });
 
-app.listen(8000, function() {
-    console.log("8000 Port : Server Started!");
+app.listen(8000, function () {
+    console.log("8000 Port : Server Started~!!!");
 });

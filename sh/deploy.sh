@@ -1,5 +1,3 @@
-#!/bin/bash
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 nvm use node
@@ -13,7 +11,7 @@ DEST=/$HOME/deploy
 
 rm -rf $DEST
 mkdir -p $DEST
-cp -r $SRC/* $DEST
+cp -rf $SRC $DEST
 
 cd $DEST/hello
 
