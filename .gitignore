@@ -1,0 +1,12 @@
+## nodejs
+nodejs/**/node_modules
+nodejs/**/package-lock.json
+nodejs/**/.serverless
+
+## python
+.idea
+secret.json
+**/.venv
+**/__pycache__/
+**/secret.json
+**/pycache
