@@ -1,3 +1,5 @@
+## /work/actions/.github/workflows/main.yml
+
 name: remote ssh command
 on: [push]
 jobs:
